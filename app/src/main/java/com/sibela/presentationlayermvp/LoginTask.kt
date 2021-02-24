@@ -14,5 +14,7 @@ interface LoginTask {
 
     interface Presenter {
         fun loginUser(email: String, password: String)
+
+        fun onViewDestroyed()
     }
 }
